@@ -1,0 +1,9 @@
+{
+  "name": "hyper-theme",
+  "version": "1.0.0",
+  "description": "Theme for Hyper Terminal",
+  "main": "index.js",
+  "repository": "git@github.com:mitchreece/hyper-theme.git",
+  "author": "Mitch Reece <mitchellreece18@gmail.com>",
+  "license": "MIT"
+}
