@@ -1,4 +1,5 @@
 const { colors } = require('./styles/vars')
+const cssOverride = require('./styles/')
 
 exports.decorateConfig = (config) => {
     return Object.assign({}, config, {
@@ -8,6 +9,8 @@ exports.decorateConfig = (config) => {
         cursorColor: colors.secondary,
         css: `
             ${config.css || ''}
+
+            ${ cssOverride }
         `
     })
 }
