@@ -1,5 +1,7 @@
 # @mitchreece/hyper-theme
 
+[![npm version](https://badge.fury.io/js/%40mitchreece%2Fhyper-theme.svg)](https://badge.fury.io/js/%40mitchreece%2Fhyper-theme)
+
 Personal theme for [hyper](https://hyper.is/) terminal.
 
 ## Installation
