@@ -1,5 +1,5 @@
 const { colors } = require('./styles/vars')
-const cssOverride = require('./styles/')
+const styles = require('./styles/')
 
 exports.decorateConfig = (config) => {
     return Object.assign({}, config, {
@@ -10,7 +10,7 @@ exports.decorateConfig = (config) => {
         css: `
             ${config.css || ''}
 
-            ${ cssOverride }
+            ${ styles.css }
         `
     })
 }

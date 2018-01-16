@@ -1,5 +1,4 @@
-const tabs = require('./tabs')
-
-module.exports = `
-    ${ tabs }
-`
+exports.css = [
+    require('./tabs'),
+    require('./header')
+].join('')
