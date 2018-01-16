@@ -1,12 +1,7 @@
-const { colors } = require('./styles/vars')
 const styles = require('./styles/')
 
 exports.decorateConfig = (config) => {
-    return Object.assign({}, config, {
-        borderColor: 'transparent',
-        backgroundColor: colors.primary,
-        foregroundColor: colors.fontLight,
-        cursorColor: colors.secondary,
+    return Object.assign({}, config, styles.overrides, {
         css: `
             ${config.css || ''}
 
