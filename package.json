@@ -9,7 +9,7 @@
   "repository": "git@github.com:mitchreece/hyper-theme.git",
   "author": "Mitch Reece <mitchellreece18@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@mitchreece/theme-variables": "^1.0.0"
   }
 }
