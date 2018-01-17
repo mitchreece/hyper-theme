@@ -1,4 +1,4 @@
-const { colors } = require('./vars')
+const { colors } = require('@mitchreece/theme-variables')
 
 exports.css = [
     require('./tabs'),
